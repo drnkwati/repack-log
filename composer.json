@@ -1,0 +1,38 @@
+{
+    "name": "drnkwati/repack-log",
+    "description": "PHP 5.3 Log package.",
+    "license": "MIT",
+    "authors": [
+    {
+        "name": "Taylor Otwell",
+        "email": "taylor@laravel.com"
+    },
+    {
+        "name": "Divine Nkwati",
+        "email": "drnkwati@gmail.com"
+    }],
+    "require":
+    {
+        "php": ">=5.3",
+        "monolog/monolog": ">=1.24"
+    },
+    "autoload":
+    {
+        "psr-4":
+        {
+            "Repack\\Log\\": "src"
+        }
+    },
+    "extra":
+    {
+        "branch-alias":
+        {
+            "dev-master": "5.8-dev"
+        }
+    },
+    "config":
+    {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev"
+}
